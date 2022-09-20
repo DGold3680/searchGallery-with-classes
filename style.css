@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    margin: 0;
+    padding: 0;
+}
+
+.app{
+    margin: 0 auto;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: azure;
+}
+
+.inputBox{
+    width: 80%;
+}
+.title{
+    font-style:italic;
+    background-color: navy;
+}
+
+.gallery{
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.frame{
+    width: 100%;
+    border: 0.1px solid azure;
+    box-sizing: border-box;
+}
+.footer{
+    background-color: navy;
+    color: azure;
+    padding: 0.5em;
+    font-size: 1.25rem;
+    
+}
+
